@@ -1,0 +1,44 @@
+{
+  "name": "@jetbrains/logos",
+  "version": "0.1.0",
+  "description": "JetBrains logos and branding materials",
+  "author": "JetBrains",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "main": "index.js",
+  "files": [
+    "*/*.svg",
+    "*/*.ico",
+    "*/!(boxshot).png"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JetBrains/logos.git"
+  },
+  "keywords": [
+    "jetbrains",
+    "branding",
+    "logos"
+  ],
+  "devDependencies": {
+    "archiver": "^1.3.0",
+    "archiver-promise": "^1.0.0",
+    "bluebird": "^3.4.7",
+    "cheerio": "^0.22.0",
+    "ci-publish": "^1.3.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
+    "standard-version": "^4.0.0",
+    "fs-extra": "^2.0.0",
+    "glob-all": "^3.1.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "svg2png": "^4.1.1",
+    "svgo": "^0.7.2"
+  },
+  "scripts": {
+    "build": "scripts/prepare.sh && node scripts/generate-logos.js && scripts/optimize.sh",
+    "build:assets": "rm -rf ./dist && node scripts/generate-assets.js",
+    "prerelease:ci": "npm run build",
+    "release:ci": "standard-version && git push --follow-tags origin master && cd dist/web && ci-publish"
+  }
+}
