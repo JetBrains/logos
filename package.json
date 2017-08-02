@@ -8,7 +8,8 @@
   "files": [
     "*/*.svg",
     "*/*.ico",
-    "*/!(boxshot).png"
+    "*/!(boxshot).png",
+    "logos.js"
   ],
   "repository": {
     "type": "git",
