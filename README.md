@@ -1,8 +1,10 @@
 # JetBrains logos and branding materials
 
+[![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 ## Usage guidelines
 
-Please visit [JetBrains website brand page](https://www.jetbrains.com/company/brand). 
+Please visit [JetBrains website brand page](https://www.jetbrains.com/company/brand) to get acquainted with our dos and don'ts. 
 If in doubt, please contact [marketing@jetbrains.com](mailto:marketing@jetbrains.com).
 
 ## Install
@@ -21,7 +23,7 @@ npm run build
 
 ### Base directory
 
-`index.js` allows to obtain package dirname
+`index.js` allows to obtain package dirname:
 
 ```js
 const logosPath = require('@jetbrains/logos'); // '/path/to/project/node_modules/jetbrains-logos/'
@@ -29,14 +31,15 @@ const logosPath = require('@jetbrains/logos'); // '/path/to/project/node_modules
 
 ### Files and metas
 
-`utils.js` allows to obtain actual icons metas list:
+`utils.js` allows to obtain the list of resources for a given product as well as HTML markup with all the necessary meta tags:
 
 ```js
 const utils = require('@jetbrains/logos/utils');
 
 const product = 'hub';
 const files = utils.getFiles(/* required */product);
-/* Returns array of absolute paths to files:
+
+/* Returns an array of absolute paths to files:
 [ 
   '/path/to/project/node_modules/jetbrains-logos/hub/favicon.ico',
   '/path/to/project/node_modules/jetbrains-logos/hub/apple-touch-icon-57x57.png',
@@ -58,18 +61,17 @@ const files = utils.getFiles(/* required */product);
 */
 ```
 
-Reference HTML (following strings are used in automated scripts):
-
 ```js
 const utils = require('@jetbrains/logos/utils');
 
-// Process filename before metas generation
+// An optional filename processor
 function processor(filename) {
   return filename;
 }
 
 const metas = utils.getMetas(/* optional */processor);
-/* Returns array of strings from Reference HTML:
+
+/* Returns the list of meta tags:
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16 32x32"/>
 <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png"/>
 <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png"/>
