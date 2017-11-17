@@ -18,4 +18,5 @@ module.exports = {
   'mstile-150x150.png': {width: 270, height: 270, offsetX: 72, offsetY: 50, imageWidth: 126},
   'mstile-310x150.png': {width: 558, height: 270, offsetX: 216, offsetY: 50, imageWidth: 126},
   'mstile-310x310.png': {width: 558, height: 558, offsetX: 150, offsetY: 128, imageWidth: 260},
+  'og-image-1200x630.png': {width: 1200, height: 630, offsetX: 335, offsetY: 50, imageWidth: 530},
 };
