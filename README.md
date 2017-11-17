@@ -89,5 +89,9 @@ const metas = utils.getMetas(/* optional */processor);
 <meta name="msapplication-square150x150logo" content="mstile-150x150.png"/>
 <meta name="msapplication-wide310x150logo" content="mstile-310x150.png"/>
 <meta name="msapplication-square310x310logo" content="mstile-310x310.png"/>
+<meta property="og:title" content="%website_title%" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="%website_url%" />
+<meta property="og:image" content="og-image-1200x630.png" />
 */
 ```
