@@ -95,9 +95,8 @@ const metas = utils.getMetas(/* optional */processor);
 <meta property="og:image" content="og-image-1200x630.png" />
 */
 ```
-By default `logos.js` ignores OpenGraph meta tags, one have to call `configure`
-method to provide object containing `url` and `title` fields to replace `%website_title%`
-and `%website_url%` placeholders e.g.
+`getMetas()` will not output OpenGraph tags unless configured. Make sure to call `configure()` before calling `getMetas()` 
+and pass it a configuration object with `url` and `title` keys: 
 
 ```js
 const utils = require('@jetbrains/logos/logos');
@@ -106,4 +105,6 @@ utils.configure({
   url: 'https://teamcity.jetbrains.com',
   title: 'TeamCity CI'
 });
+
+utils.getMetas()
 ```
