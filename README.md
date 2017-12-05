@@ -31,10 +31,10 @@ const logosPath = require('@jetbrains/logos'); // '/path/to/project/node_modules
 
 ### Files and metas
 
-`utils.js` allows to obtain the list of resources for a given product as well as HTML markup with all the necessary meta tags:
+`logos.js` allows to obtain the list of resources for a given product as well as HTML markup with all the necessary meta tags:
 
 ```js
-const utils = require('@jetbrains/logos/utils');
+const utils = require('@jetbrains/logos/logos');
 
 const product = 'hub';
 const files = utils.getFiles(/* required */product);
@@ -94,4 +94,16 @@ const metas = utils.getMetas(/* optional */processor);
 <meta property="og:url" content="%website_url%" />
 <meta property="og:image" content="og-image-1200x630.png" />
 */
+```
+By default `logos.js` ignores OpenGraph meta tags, one have to call `configure`
+method to provide object containing `url` and `title` fields to replace `%website_title%`
+and `%website_url%` placeholders e.g.
+
+```js
+const utils = require('@jetbrains/logos/logos');
+
+utils.configure({
+  url: 'https://teamcity.jetbrains.com',
+  title: 'TeamCity CI'
+});
 ```
