@@ -6,6 +6,19 @@ var readmeFile = fs.readFileSync(path.resolve(__dirname, 'README.md'));
 var metasPattern = /(^<(?:link|meta).+>$)/mig;
 var metas = readmeFile.toString().match(metasPattern);
 
+/**
+ * @typedef ?Config 
+ * 
+ * @prop title {String}
+ * @prop url {String}
+ */
+var config = null;
+
+function metasFilesFilter(input) {
+  const regExp = /property="og:(?!image)/;
+  return !regExp.test(input);
+}
+
 function getMetas(processFilename) {
   function processor(meta) {
     return meta.replace(/((?:href|content)=")([^"#]+)(")/, function (match, prefix, file, suffix) {
@@ -13,7 +26,21 @@ function getMetas(processFilename) {
     });
   }
 
-  return processFilename ? metas.map(processor) : metas;
+  function filterOGPropsOut(input) {
+    const regExp = /property="og:/;
+    return !regExp.test(input);
+  }
+
+  if (!config) {
+    let _metas = metas.filter(filterOGPropsOut);
+    return processFilename ?
+      _metas.map(processor) :
+      _metas;
+  } else {
+    return processFilename ?
+      metas.map(meta => metasFilesFilter(meta) ? processor(meta) : meta) :
+      metas;
+  }
 }
 
 function getFiles(product) {
@@ -48,7 +75,7 @@ function getInfo(folderName, hash, processFilename) {
     return md5sum.digest('hex');
   };
 
-  return getMetas(processFilename).map(function(meta) {
+  const processMeta = function(meta) {
     var item = {meta: meta};
     var fileName = meta.replace(/^.*((?:href|content)=")([^"#]+)(").*$/, '\$2');
 
@@ -68,11 +95,28 @@ function getInfo(folderName, hash, processFilename) {
     }
 
     return item;
-  });
+  };
+
+  return getMetas(processFilename)
+    .filter(metasFilesFilter)
+    .map(processMeta);
+}
+
+function configure(configuration) {
+  if (!configuration || !configuration.url || !configuration.title) {
+    throw new Error('Both `url` and `title` parameters are required');
+  }
+
+  metas = metas.map(meta => meta
+    .replace('%website_title%', configuration.title)
+    .replace('%website_url%', configuration.url));
+
+  return config = Object.assign(config || {}, configuration);
 }
 
 module.exports = {
   getMetas: getMetas,
   getFiles: getFiles,
-  getInfo: getInfo
+  getInfo: getInfo,
+  configure: configure
 };
