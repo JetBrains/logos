@@ -1,6 +1,7 @@
 # JetBrains logos and branding materials
 
 [![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![npm (scoped)](https://img.shields.io/npm/v/@jetbrains/logos.svg?style=flat-square)](https://www.npmjs.com/package/@jetbrains/logos)
 
 ## Usage guidelines
 
