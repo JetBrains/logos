@@ -5,7 +5,7 @@
 
 ## Usage guidelines
 
-Please visit [JetBrains website brand page](https://www.jetbrains.com/company/brand) to get acquainted with our dos and don'ts. 
+Please review the [Brand Guidelines](https://www.jetbrains.com/company/brand) to get acquainted with our dos and don'ts. 
 If in doubt, please contact [marketing@jetbrains.com](mailto:marketing@jetbrains.com).
 
 ## Install
