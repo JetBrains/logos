@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/JetBrains/logos/compare/v0.1.7...v1.0.0) (2018-02-02)
+
+
+### Code Refactoring
+
+* rename Gogland to Goland ([1b9000c](https://github.com/JetBrains/logos/commit/1b9000c))
+
+
+### BREAKING CHANGES
+
+* Rename Gogland to Goland
+
+
+
 <a name="0.1.7"></a>
 ## [0.1.7](https://github.com/JetBrains/logos/compare/v0.1.6...v0.1.7) (2017-12-05)
 
