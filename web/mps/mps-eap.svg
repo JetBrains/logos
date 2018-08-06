@@ -1,0 +1,26 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html class="no-js">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" ng-app="YouTrackLogin" ng-strict-di>
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  
+  <base href="/">
+  
+</head>
+
+<body>
+<div yt-loader="screen" message="Loading YouTrack..."></div>
+
+<script src="static/vendor.056138960efbf056515b.js"></script>
+<script src="static/unsupported.056138960efbf056515b.js"></script>
+<script src="static/oauth.056138960efbf056515b.js"></script>
+</body>
+
+</html>

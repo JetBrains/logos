@@ -1,0 +1,40 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.69444mm" height="24.69444mm" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="22.2541" y1="539.14853" x2="45.65356" y2="539.14853" gradientTransform="translate(0 -524.00006)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ed358c"/>
+      <stop offset="0.1553" stop-color="#e9388c"/>
+      <stop offset="0.2969" stop-color="#de418c"/>
+      <stop offset="0.4332" stop-color="#cc508c"/>
+      <stop offset="0.5662" stop-color="#b2658d"/>
+      <stop offset="0.6969" stop-color="#90808d"/>
+      <stop offset="0.8259" stop-color="#67a18e"/>
+      <stop offset="0.9512" stop-color="#37c78f"/>
+      <stop offset="1" stop-color="#22d88f"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="17.81818" y1="532.97415" x2="7.52294" y2="602.05651" gradientTransform="translate(0 -524.00006)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.0914" stop-color="#22d88f"/>
+      <stop offset="0.9032" stop-color="#029de0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="63.80723" y1="530.45364" x2="-6.61201" y2="604.8269" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="40.11435" y1="573.35041" x2="66.87567" y2="577.15534" xlink:href="#linear-gradient-2"/>
+  </defs>
+  <title>clineEAP</title>
+  <g>
+    <polygon points="26.906 28.328 22.203 30.297 26.469 0 42.547 8.859 26.906 28.328" fill="url(#linear-gradient)"/>
+    <polygon points="24.391 42 26.687 0 6.453 12.688 0 51.406 24.391 42" fill="url(#linear-gradient-2)"/>
+    <polygon points="68.578 21 59.609 2.625 42.547 8.859 30.078 22.641 0 51.406 22.75 68.031 51.188 42.219 68.578 21" fill="url(#linear-gradient-3)"/>
+    <polygon points="29.422 29.859 25.484 53.813 41.453 66.172 58.953 70 70 45.063 29.422 29.859" fill="url(#linear-gradient-4)"/>
+  </g>
+  <g>
+    <rect x="14" y="13.99997" width="42" height="42"/>
+    <rect x="17.99" y="48.12497" width="15.75" height="2.625" fill="#fff"/>
+    <path d="M17.675,28.28h0a8.835,8.835,0,0,1,8.6356-9.03q.19717-.0044.3944,0a8.5891,8.5891,0,0,1,6.825,2.73l-2.415,2.835a6.34366,6.34366,0,0,0-4.41-1.995,5.14586,5.14586,0,0,0-5.04876,5.24117q.00205.10948.00876.21883h0a5.20812,5.20812,0,0,0,4.94752,5.4563q.04623.00227.09248.0037a6.687,6.687,0,0,0,4.62-1.995L33.74,34.16a8.99464,8.99464,0,0,1-7.14,3.15,8.93881,8.93881,0,0,1-8.92545-8.95214L17.675,28.28" fill="#fff"/>
+    <path d="M36.365,19.46H40.25V33.635h7.56V36.89H36.365Z" fill="#fff"/>
+  </g>
+  <rect x="37" y="53" width="33" height="17" fill="#d99e2b"/>
+  <g>
+    <path d="M40.05563,66.966h7.19661V65.24271H41.745V62.2975h4.82041V60.57425H41.745V57.72294h5.43874V55.99969H40.05563Z"/>
+    <path d="M48.15627,66.966h1.86832l1.06757-2.6268h4.9082l1.05281,2.6268h1.9277l-4.5671-10.95841h-1.6904Zm3.60316-4.321,1.77945-4.35241L55.33309,62.645Z"/>
+    <path d="M59.87536,66.966h1.62869V63.44109h1.84026a3.50288,3.50288,0,0,0,3.70715-3.74426v-.03124a3.3623,3.3623,0,0,0-3.52185-3.6659H59.87536Zm1.62869-5.26364V57.75418h1.89333a1.80657,1.80657,0,0,1,1.99894,1.95836V59.744a1.86935,1.86935,0,0,1-1.99894,1.95836Z"/>
+  </g>
+</svg>
