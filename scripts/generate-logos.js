@@ -16,15 +16,19 @@ FileSet.create({
   pattern: '*/*.{svg,ico}',
   cwd: logosDir
 }).then(({ files }) => {
-  return Promise.map(files, (file) => {
+  return Promise.mapSeries(files, (file) => {
     const { basename, dirname, filename } = file;
     const copyPromise = file.copy(`${distDir}/${dirname}/${filename}`);
 
+    console.log('Converting file', filename)
     if (basename === dirname) {
-      copyPromise.then(() => Promise.map(rules.keys(), (ruleId) => {
+      return copyPromise.then(() => Promise.map(rules.keys(), (ruleId) => {
         return rules.get(ruleId)
           .transformToPNG(file)
-          .then(file => file.write(`${distDir}/${dirname}/${ruleId}`));
+          .then(file => {
+            console.log('File converted', filename)
+            file.write(`${distDir}/${dirname}/${ruleId}`)
+          });
       }));
     }
 
