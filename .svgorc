@@ -15,6 +15,7 @@
     "removeEditorsNSData",
     "cleanupAttrs",
     "cleanupIDs",
+    {"prefixIds": true},
     "removeUselessDefs",
     "cleanupNumericValues",
     "cleanupListOfValues",
