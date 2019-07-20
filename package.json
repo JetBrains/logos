@@ -25,7 +25,7 @@
     "archiver-promise": "^1.0.0",
     "bluebird": "^3.5.5",
     "cheerio": "^0.22.0",
-    "commitizen": "^3.1.1",
+    "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^2.1.0",
     "fs-extra": "^8.0.1",
     "glob-all": "^3.1.0",
