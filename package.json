@@ -9,7 +9,8 @@
     "*/*.svg",
     "*/*.ico",
     "*/!(boxshot).png",
-    "logos.js"
+    "logos.js",
+    "LICENSE.txt"
   ],
   "repository": {
     "type": "git",
