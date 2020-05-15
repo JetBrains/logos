@@ -20,6 +20,19 @@ npm install @jetbrains/logos
 npm run build
 ```
 
+## Usage in React
+
+```js
+import { AppcodeLogo, AppcodeTextLogo } from '@jetbrains/logos';
+
+...
+
+<div>
+  <AppcodeLogo />
+  <AppcodeTextLogo fill="white" />
+</div>
+```
+
 ## Node API
 
 ### Base directory
