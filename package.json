@@ -6,10 +6,10 @@
   "license": "SEE LICENSE IN LICENSE.txt",
   "main": "index.js",
   "files": [
-    "*/*.svg",
-    "*/*.ico",
+    "*/*.{svg,ico,js}",
     "*/!(boxshot).png",
     "logos.js",
+    "react.js",
     "LICENSE.txt"
   ],
   "repository": {
@@ -22,9 +22,15 @@
     "logos"
   ],
   "devDependencies": {
+    "@svgr/core": "^5.4.0",
+    "@svgr/plugin-jsx": "^5.4.0",
+    "@svgr/plugin-prettier": "^5.4.0",
+    "@svgr/plugin-svgo": "^5.4.0",
     "archiver": "^3.0.0",
     "archiver-promise": "^1.0.0",
     "bluebird": "^3.5.5",
+    "buble": "^0.20.0",
+    "case": "^1.6.3",
     "cheerio": "^0.22.0",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^2.1.0",
@@ -37,8 +43,10 @@
     "svgo": "^1.2.2"
   },
   "scripts": {
-    "build": "scripts/prepare.sh && node scripts/generate-logos.js && scripts/optimize.sh",
-    "build:assets": "rm -rf ./dist && node scripts/generate-assets.js",
+    "build": "scripts/prepare.sh && npm run build:png && npm run build:react-components",
+    "build:assets": "node scripts/generate-assets.js",
+    "build:png": "node scripts/generate-logos.js && scripts/optimize.sh",
+    "build:react-components": "node scripts/generate-react-components.js",
     "prerelease:ci": "npm run build",
     "release:ci": "standard-version && git push --follow-tags origin master && cd dist/web && npm publish"
   }
