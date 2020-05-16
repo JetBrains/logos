@@ -23,7 +23,7 @@ npm run build
 ## Usage in React
 
 ```js
-import { AppcodeLogo, AppcodeTextLogo } from '@jetbrains/logos';
+import { AppcodeLogo, AppcodeTextLogo } from '@jetbrains/logos/react';
 
 ...
 

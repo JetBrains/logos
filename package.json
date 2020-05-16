@@ -5,12 +5,11 @@
   "author": "JetBrains",
   "license": "SEE LICENSE IN LICENSE.txt",
   "main": "index.js",
-  "module": "index.esm.js",
   "files": [
     "*/*.{svg,ico,js}",
     "*/!(boxshot).png",
     "logos.js",
-    "index.esm.js",
+    "react.js",
     "LICENSE.txt"
   ],
   "repository": {

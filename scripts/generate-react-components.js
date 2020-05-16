@@ -53,7 +53,7 @@ const buble = require('buble');
   }
 
   await outputFile(
-    Path.resolve(LOGOS_DIR, 'index.esm.js'),
+    Path.resolve(LOGOS_DIR, 'react.js'),
     imports.join(';\n')
   );
 })();
