@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/JetBrains/logos/compare/v1.1.10...v1.3.0) (2020-05-16)
+
+
+### Features
+
+* generate React components from SVG logos ([97af562](https://github.com/JetBrains/logos/commit/97af562))
+
+
+
 ### [1.1.10](https://github.com/JetBrains/logos/compare/v1.1.9...v1.1.10) (2020-04-20)
 
 
