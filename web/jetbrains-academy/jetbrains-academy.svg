@@ -1,10 +1,1 @@
-<svg height="70" viewBox="0 0 70 70" width="70" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="41.28634" x2="13.83939" y1="41.28595" y2="13.839">
-    <stop offset=".2334" stop-color="#21d789"/>
-    <stop offset=".88985" stop-color="#af1df5"/>
-  </linearGradient>
-  <path d="m56 14v42h-42z"/>
-  <path d="M50.76534,50.74985H40.25191V48.43361H50.76534Z" fill="#fff"/>
-  <path d="m14 56v-42h42z" fill="url(#a)"/>
-</svg>
+<svg height="70" viewBox="0 0 70 70" width="70" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" gradientUnits="userSpaceOnUse" x1="41.28634" x2="13.83939" y1="41.28595" y2="13.839"><stop offset=".2334" stop-color="#21d789"/><stop offset=".88985" stop-color="#af1df5"/></linearGradient><path d="m56 14v42h-42z"/><path d="m50.76534 50.74985h-10.51343v-2.31624h10.51343z" fill="#fff"/><path d="m14 56v-42h42z" fill="url(#a)"/></svg>
