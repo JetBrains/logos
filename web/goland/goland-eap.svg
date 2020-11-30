@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="56.64937" y1="28.45701" x2="36.84317" y2="58.65656" gradientUnits="userSpaceOnUse">
       <stop offset="0.17455" stop-color="#078efc"/>
@@ -19,7 +19,6 @@
       <stop offset="0.67012" stop-color="#3bea62"/>
     </linearGradient>
   </defs>
-  <title>golandEAP</title>
   <g>
     <path d="M59.89951,23.16457,70,45.60424,55.71933,70,21.4179,42.0514,38.96029,25.14276Z" fill="url(#linear-gradient)"/>
     <path d="M45.31747,44.745,55.71933,70,24.03077,59.107,21.4179,42.0514Z" fill="#bb4efc"/>

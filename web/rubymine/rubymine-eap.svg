@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="49.60917" y1="52.55431" x2="30.34633" y2="7.16267" gradientUnits="userSpaceOnUse">
       <stop offset="0.17204" stop-color="#ff1f51"/>
@@ -23,7 +23,6 @@
       <stop offset="0.84946" stop-color="#ff8629"/>
     </linearGradient>
   </defs>
-  <title>rubyMineEAP</title>
   <g>
     <polygon points="58.215 0 38.183 7.177 22.403 0 6.934 38.915 24.71 31.803 24.444 51.537 62.451 52.179 70 13.682 58.215 0" fill="url(#linear-gradient)"/>
     <polygon points="50.808 22.682 25.631 6.16 5.257 18.706 49.828 35.878 50.808 22.682" fill="url(#linear-gradient-2)"/>

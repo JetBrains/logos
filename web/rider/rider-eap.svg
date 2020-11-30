@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="63.38684" y1="44.2386" x2="3.77963" y2="10.03219" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#c90f5e"/>
@@ -22,7 +22,6 @@
       <stop offset="0.96842" stop-color="#fdb60d"/>
     </linearGradient>
   </defs>
-  <title>riderEAP</title>
   <g>
     <polygon points="70 27.236 20.925 0 3.826 17.921 21.62 41.067 60.537 44.397 70 27.236" fill="url(#linear-gradient)"/>
     <polygon points="50.423 16.132 44.271 1.107 27.643 17.471 11.768 50.194 49.412 70 70 57.98 50.423 16.132" fill="url(#linear-gradient-2)"/>

@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="52.98971" y1="93.04294" x2="-13.62198" y2="7.72011" gradientUnits="userSpaceOnUse">
       <stop offset="0.0914" stop-color="#0b8fff"/>
@@ -21,7 +21,6 @@
       <stop offset="0.94595" stop-color="#ffdc52"/>
     </linearGradient>
   </defs>
-  <title>mpsEAP</title>
   <g>
     <polygon points="0 70 70 70 34.844 34.906 0 0 0 70" fill="url(#linear-gradient)"/>
     <polygon id="_Path_" data-name="&lt;Path&gt;" points="70 70 34.844 34.906 70 0 70 70" fill="url(#linear-gradient-2)"/>

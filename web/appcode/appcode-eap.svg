@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="20.61698" y1="57.75472" x2="70" y2="57.75472" gradientUnits="userSpaceOnUse">
       <stop offset="0.19355" stop-color="#00daf0"/>
@@ -11,7 +11,6 @@
       <stop offset="0.90323" stop-color="#247ce6"/>
     </linearGradient>
   </defs>
-  <title>appCodeEAP</title>
   <g>
     <polygon points="59.171 54.981 70 26.35 37.329 18.955 32.978 31.152 59.171 54.981" fill="#247ce6"/>
     <polygon points="70 56.149 53.49 70 20.617 61.527 29.44 45.509 70 56.149" fill="url(#linear-gradient)"/>

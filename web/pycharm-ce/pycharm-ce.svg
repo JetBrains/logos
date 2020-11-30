@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
   <defs>
     <linearGradient id="linear-gradient" x1="25.11286" y1="24.24154" x2="55.8756" y2="24.24154" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#21d789"/>
@@ -48,7 +48,6 @@
       <stop offset="0.9247" stop-color="#b2e56b"/>
     </linearGradient>
   </defs>
-  <title>PyCharm_comm_64</title>
   <g>
     <g>
       <polygon points="58 6 44 6 35.6 36 58 42.483 58 6" fill="url(#linear-gradient)"/>

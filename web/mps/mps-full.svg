@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="903" height="151" viewBox="0 0 903 151">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="903" height="151" viewBox="0 0 903 151">
   <defs>
     <linearGradient id="linear-gradient" x1="105.97886" y1="187.79332" x2="-27.24385" y2="17.1485" gradientUnits="userSpaceOnUse">
       <stop offset="0.0914" stop-color="#0b8fff"/>
@@ -21,7 +21,6 @@
       <stop offset="0.94595" stop-color="#ffdc52"/>
     </linearGradient>
   </defs>
-  <title>mps_full</title>
   <g>
     <g>
       <g id="_Group_" data-name="&lt;Group&gt;">

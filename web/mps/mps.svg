@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="140" viewBox="0 0 140 140">
   <defs>
     <linearGradient id="linear-gradient" x1="105.97886" y1="186.08497" x2="-27.24385" y2="15.44015" gradientUnits="userSpaceOnUse">
       <stop offset="0.0914" stop-color="#0b8fff"/>
@@ -21,10 +21,9 @@
       <stop offset="0.94595" stop-color="#ffdc52"/>
     </linearGradient>
   </defs>
-  <title>mps_logo</title>
   <g>
     <polygon points="0 140 140 140 70 70 0 0 0 140" fill="url(#linear-gradient)"/>
-    <polygon id="_Path_" data-name="&lt;Path&gt;" points="140 140 70 70 140 0 140 140" fill="url(#linear-gradient-2)"/>
-    <polygon id="_Path_2" data-name="&lt;Path&gt;" points="102 102 70 70 140 0 102 102" fill="url(#linear-gradient-3)"/>
+    <polygon points="140 140 70 70 140 0 140 140" fill="url(#linear-gradient-2)"/>
+    <polygon points="102 102 70 70 140 0 102 102" fill="url(#linear-gradient-3)"/>
   </g>
 </svg>

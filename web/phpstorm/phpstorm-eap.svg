@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="0.55804" y1="46.84571" x2="29.94728" y2="8.0256" gradientUnits="userSpaceOnUse">
       <stop offset="0.01613" stop-color="#765af8"/>
@@ -19,7 +19,6 @@
       <stop offset="0.38213" stop-color="#b345f1"/>
     </linearGradient>
   </defs>
-  <title>phpStormEAP</title>
   <g>
     <polygon points="39.599 15.201 36.306 5.249 11.941 0 0 13.513 37.19 32.529 39.599 15.201" fill="url(#linear-gradient)"/>
     <polygon points="28.043 41.4 27.289 20.56 0 13.513 6.673 53.586 28.043 53.414 28.043 41.4" fill="url(#linear-gradient-2)"/>

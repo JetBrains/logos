@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="24.99854" y1="44.26433" x2="66.65652" y2="44.26433" gradientTransform="matrix(1, 0, 0, -1, 0, 71.27997)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#21d789"/>
@@ -48,7 +48,6 @@
       <stop offset="0.9247" stop-color="#b2e56b"/>
     </linearGradient>
   </defs>
-  <title>pycharmEAP</title>
   <g>
     <polygon points="49.109 11.047 69.563 28 62.125 42.984 49.875 39.594 39.156 39.594 49.109 11.047" fill="url(#linear-gradient)"/>
     <polygon points="28.438 22.094 24.5 42.984 24.172 50.203 14.109 54.469 0 56 4.266 10.719 29.969 0 45.719 10.391 28.438 22.094" fill="url(#linear-gradient-2)"/>

@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="25.06755" y1="1.45989" x2="43.18286" y2="66.67501" gradientUnits="userSpaceOnUse">
       <stop offset="0.28495" stop-color="#00cdd7"/>
@@ -10,7 +10,6 @@
     </linearGradient>
     <linearGradient id="linear-gradient-3" x1="61.08194" y1="15.2899" x2="65.10653" y2="29.54363" xlink:href="#linear-gradient"/>
   </defs>
-  <title>webStormEAP</title>
   <g>
     <polygon points="9.433 63.263 0 7.337 17.451 0.092 28.592 6.718 38.797 1.206 60.068 9.374 48.136 70 9.433 63.263" fill="url(#linear-gradient)"/>
     <polygon points="70 23.705 60.97 1.389 44.574 0 19.275 24.309 26.085 55.641 38.797 64.559 70 46.044 62.347 31.692 70 23.705" fill="url(#linear-gradient-2)"/>

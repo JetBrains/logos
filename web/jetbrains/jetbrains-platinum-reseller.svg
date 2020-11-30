@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314.59872" height="260.43244" viewBox="0 0 314.59872 260.43244">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="314.59872" height="260.43244" viewBox="0 0 314.59872 260.43244">
   <defs>
     <linearGradient id="linear-gradient" x1="138.025" y1="241.11559" x2="294.82302" y2="146.48009" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#fcee39"/>
@@ -21,7 +21,6 @@
       <stop offset="1" stop-color="#ed3d7d"/>
     </linearGradient>
   </defs>
-  <title>reseller</title>
   <g>
     <path d="M2.376,138.67438H8.66455c3.79248,0,6.28857,2.0166,6.28857,5.3291v.04785c0,3.624-3.02393,5.49609-6.60059,5.49609H4.27246v5.92871H2.376Zm6.04883,9.14551c2.78418,0,4.6084-1.48828,4.6084-3.69629v-.04883c0-2.39941-1.80029-3.64746-4.5127-3.64746h-4.248v7.39258Z" fill="#231f20"/>
     <path d="M17.208,138.67438h1.89648v15.0498H28.561v1.752H17.208Z" fill="#231f20"/>

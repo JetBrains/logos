@@ -1,4 +1,4 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
   <defs>
     <linearGradient id="linear-gradient" x1="41.08629" y1="17.64979" x2="46.5384" y2="4.06277" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#9775f8"/>
@@ -22,7 +22,6 @@
       <stop offset="1" stop-color="#ff59e6"/>
     </linearGradient>
   </defs>
-  <title>dataGripEAP</title>
   <g>
     <polygon points="65.536 10.882 70 39.533 53.033 49.409 49.76 33.163 65.536 10.882" fill="#9775f8"/>
     <polygon points="65.536 10.882 40.473 0 19.424 17.471 49.76 33.163 65.536 10.882" fill="url(#linear-gradient)"/>
