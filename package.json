@@ -47,7 +47,7 @@
     "build:assets": "node scripts/generate-assets.js",
     "build:png": "node scripts/generate-logos.js && scripts/optimize.sh",
     "build:react-components": "node scripts/generate-react-components.js",
-    "prerelease:ci": "npm run build",
-    "release:ci": "standard-version && git push --follow-tags origin master && cd dist/web && npm publish"
+    "prerelease:ci": "standard-version && npm run build",
+    "release:ci": "git push --follow-tags origin master && cd dist/web && npm publish"
   }
 }
