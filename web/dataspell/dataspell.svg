@@ -1,0 +1,34 @@
+<svg fill="none" height="70" viewBox="0 0 70 70" width="70" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="51.915" x2="5.515" y1="21.235" y2="21.235">
+    <stop offset="0" stop-color="#21d789"/>
+    <stop offset=".917" stop-color="#fcf84a"/>
+  </linearGradient>
+  <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="53.765" x2="53.765" y1="20.208" y2="78.116">
+    <stop offset="0" stop-color="#21d789"/>
+    <stop offset="1" stop-color="#087cfa"/>
+  </linearGradient>
+  <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="92.069" x2="23.619" y1="72.972" y2="17.191">
+    <stop offset=".105" stop-color="#21d789"/>
+    <stop offset=".967" stop-color="#087cfa"/>
+  </linearGradient>
+  <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="60.521" x2="12.274" y1="-5.388" y2="49.291">
+    <stop offset=".235" stop-color="#21d789"/>
+    <stop offset=".74" stop-color="#087cfa"/>
+  </linearGradient>
+  <path d="m44.9896 0 1.3854 28.4375-35.4375 14-10.93750015-28.2917z" fill="url(#a)"/>
+  <path d="m70 16.625-30.625 13.2708 5.6146-29.8958z" fill="#21d789"/>
+  <path d="m37.5521 23.1875 32.4479-6.5625v30.6979l-22.3125 8.3854-9.1146-8.3125z" fill="url(#b)"/>
+  <path d="m24.0625 14.2188 22.3873 3.4635 23.5502 29.3679-22.6053 8.731-8.7223-8.6588z" fill="url(#c)"/>
+  <path d="m14.4375 0 31.9375 17.6458-11.0104 52.3542h-18.5938l-16.114545-16.625z" fill="url(#d)"/>
+
+  <path d="m56 14h-42v42h42z" fill="#000000"/>
+  <path d="m34.4166 48.6499h-15.75v2.6833h15.75z" fill="#fff"/>
+  <path
+    d="m19 19h6.1833c5.0167 0 8.4 3.3542 8.4 7.7493 0 4.3952-3.3833 7.865-8.4 7.865l-6.1833.1157zm3.5 3.1229v9.4842h2.6833c2.8 0 4.7834-1.8506 4.7834-4.6264 0-2.7759-1.8667-4.7422-4.7834-4.7422z"
+    fill="#fff"/>
+  <path
+    d="m34.97 32.3599 2.03-2.45c1.4 1.19 2.94 1.89 4.69 1.89 1.4 0 2.31-.56 2.31-1.47v-.07c0-.91-.56-1.33-3.15-2.03-3.22-.77-5.25-1.68-5.25-4.83v-.07c0-2.87 2.31-4.76 5.53-4.76 2.31 0 4.27.7 5.88 2.03l-1.82 2.59c-1.4-.98-2.8-1.54-4.13-1.54s-2.03.63-2.03 1.4v.07c0 1.05.7 1.4 3.43 2.1 3.22.84 5.04 1.96 5.04 4.76v.07c0 3.15-2.38 4.9-5.81 4.9-2.38-.07-4.83-.91-6.72-2.59z"
+    fill="#fff"/>
+
+</svg>
