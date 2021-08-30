@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.18](https://github.com/JetBrains/logos/compare/v1.4.17...v1.4.18) (2021-08-30)
+
 ### [1.4.17](https://github.com/JetBrains/logos/compare/v1.4.16...v1.4.17) (2021-06-25)
 
 ### [1.4.16](https://github.com/JetBrains/logos/compare/v1.4.15...v1.4.16) (2021-05-20)
