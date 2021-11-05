@@ -1,34 +1,31 @@
-<svg fill="none" height="70" viewBox="0 0 70 70" width="70" xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
-  <linearGradient id="a" gradientUnits="userSpaceOnUse" x1="51.915" x2="5.515" y1="21.235" y2="21.235">
-    <stop offset="0" stop-color="#21d789"/>
-    <stop offset=".917" stop-color="#fcf84a"/>
-  </linearGradient>
-  <linearGradient id="b" gradientUnits="userSpaceOnUse" x1="53.765" x2="53.765" y1="20.208" y2="78.116">
-    <stop offset="0" stop-color="#21d789"/>
-    <stop offset="1" stop-color="#087cfa"/>
-  </linearGradient>
-  <linearGradient id="c" gradientUnits="userSpaceOnUse" x1="92.069" x2="23.619" y1="72.972" y2="17.191">
-    <stop offset=".105" stop-color="#21d789"/>
-    <stop offset=".967" stop-color="#087cfa"/>
-  </linearGradient>
-  <linearGradient id="d" gradientUnits="userSpaceOnUse" x1="60.521" x2="12.274" y1="-5.388" y2="49.291">
-    <stop offset=".235" stop-color="#21d789"/>
-    <stop offset=".74" stop-color="#087cfa"/>
-  </linearGradient>
-  <path d="m44.9896 0 1.3854 28.4375-35.4375 14-10.93750015-28.2917z" fill="url(#a)"/>
-  <path d="m70 16.625-30.625 13.2708 5.6146-29.8958z" fill="#21d789"/>
-  <path d="m37.5521 23.1875 32.4479-6.5625v30.6979l-22.3125 8.3854-9.1146-8.3125z" fill="url(#b)"/>
-  <path d="m24.0625 14.2188 22.3873 3.4635 23.5502 29.3679-22.6053 8.731-8.7223-8.6588z" fill="url(#c)"/>
-  <path d="m14.4375 0 31.9375 17.6458-11.0104 52.3542h-18.5938l-16.114545-16.625z" fill="url(#d)"/>
-
-  <path d="m56 14h-42v42h42z" fill="#000000"/>
-  <path d="m34.4166 48.6499h-15.75v2.6833h15.75z" fill="#fff"/>
-  <path
-    d="m19 19h6.1833c5.0167 0 8.4 3.3542 8.4 7.7493 0 4.3952-3.3833 7.865-8.4 7.865l-6.1833.1157zm3.5 3.1229v9.4842h2.6833c2.8 0 4.7834-1.8506 4.7834-4.6264 0-2.7759-1.8667-4.7422-4.7834-4.7422z"
-    fill="#fff"/>
-  <path
-    d="m34.97 32.3599 2.03-2.45c1.4 1.19 2.94 1.89 4.69 1.89 1.4 0 2.31-.56 2.31-1.47v-.07c0-.91-.56-1.33-3.15-2.03-3.22-.77-5.25-1.68-5.25-4.83v-.07c0-2.87 2.31-4.76 5.53-4.76 2.31 0 4.27.7 5.88 2.03l-1.82 2.59c-1.4-.98-2.8-1.54-4.13-1.54s-2.03.63-2.03 1.4v.07c0 1.05.7 1.4 3.43 2.1 3.22.84 5.04 1.96 5.04 4.76v.07c0 3.15-2.38 4.9-5.81 4.9-2.38-.07-4.83-.91-6.72-2.59z"
-    fill="#fff"/>
-
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="none" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="a" x1="51.9148" x2="5.51542" y1="21.235" y2="21.235" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#21D789"/>
+      <stop offset="0.9169" stop-color="#FCF84A"/>
+    </linearGradient>
+    <linearGradient id="b" x1="53.7652" x2="53.7652" y1="20.2079" y2="78.1164" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#21D789"/>
+      <stop offset="1" stop-color="#087CFA"/>
+    </linearGradient>
+    <linearGradient id="c" x1="92.0688" x2="23.6193" y1="72.9718" y2="17.1911" gradientUnits="userSpaceOnUse">
+      <stop offset="0.1049" stop-color="#21D789"/>
+      <stop offset="0.9668" stop-color="#087CFA"/>
+    </linearGradient>
+    <linearGradient id="d" x1="60.5209" x2="12.2744" y1="-5.38803" y2="49.2914" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2348" stop-color="#21D789"/>
+      <stop offset="0.7396" stop-color="#087CFA"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#a)" d="M44.9896 0L46.375 28.4375L10.9375 42.4375L-1.50998e-07 14.1458L44.9896 0Z"/>
+  <path fill="#21D789" d="M70 16.625L39.375 29.8958L44.9896 0L70 16.625Z"/>
+  <path fill="url(#b)" d="M37.5521 23.1874L70 16.6249V47.3229L47.6875 55.7083L38.5729 47.3958L37.5521 23.1874Z"/>
+  <path fill="url(#c)" d="M24.0625 14.2188L46.4498 17.6823L70 47.0502L47.3947 55.7812L38.6724 47.1224L24.0625 14.2188Z"/>
+  <path fill="url(#d)" d="M14.4375 0L46.375 17.6458L35.3646 70H16.7708L0.656255 53.375L14.4375 0Z"/>
+  <g>
+    <path fill="#000000" d="M56 14H14V56H56V14Z"/>
+    <path fill="#FFFFFF" d="M34.4166 48.65H18.6666V51.3333H34.4166V48.65Z"/>
+    <path fill="#FFFFFF" d="M19 19H25.1833C30.2 19 33.5833 22.3542 33.5833 26.7493C33.5833 31.1445 30.2 34.6143 25.1833 34.6143L19 34.73V19ZM22.5 22.1229V31.6071H25.1833C27.9833 31.6071 29.9667 29.7565 29.9667 26.9807C29.9667 24.2048 28.1 22.2385 25.1833 22.2385L22.5 22.1229Z"/>
+    <path fill="#FFFFFF" d="M34.97 32.36L37 29.91C38.4 31.1 39.94 31.8 41.69 31.8C43.09 31.8 44 31.24 44 30.33V30.26C44 29.35 43.44 28.93 40.85 28.23C37.63 27.46 35.6 26.55 35.6 23.4V23.33C35.6 20.46 37.91 18.57 41.13 18.57C43.44 18.57 45.4 19.27 47.01 20.6L45.19 23.19C43.79 22.21 42.39 21.65 41.06 21.65C39.73 21.65 39.03 22.28 39.03 23.05V23.12C39.03 24.17 39.73 24.52 42.46 25.22C45.68 26.06 47.5 27.18 47.5 29.98V30.05C47.5 33.2 45.12 34.95 41.69 34.95C39.31 34.88 36.86 34.04 34.97 32.36Z"/>
+  </g>
 </svg>
