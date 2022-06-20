@@ -8,6 +8,19 @@ const svgr = require('@svgr/core').default;
 const Case = require('case');
 const buble = require('buble');
 
+const reactUtils = `import { createContext, useContext, useState } from 'react';
+
+const uniqueIdPrefixContext = createContext('__GeneratedJBProductLogos__');
+
+export const UniqueLogosIdPrefixProvider = uniqueIdPrefixContext.Provider;
+
+let i = 0;
+export const useUniqueId = () => {
+  const prefix = useContext(uniqueIdPrefixContext);
+  const [ id ] = useState(() => prefix + i++);
+  return id;
+};`;
+
 (async () => {
   const ROOT_DIR = Path.resolve(__dirname, '..');
   const LOGOS_DIR = Path.resolve(__dirname, '../dist/web');
@@ -20,7 +33,8 @@ const buble = require('buble');
     plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
     jsx: {
       babelConfig: {
-        plugins: ['react-inline-svg-unique-id']
+        // plugins: ['react-inline-svg-unique-id']
+        plugins: ['./lib/react-inline-svg-unique-id-babel-plugin.js']
       }
     }
   };
@@ -58,7 +72,11 @@ const buble = require('buble');
   }
 
   await outputFile(
+    Path.resolve(LOGOS_DIR, 'react-unique-logos-ids.js'),
+    reactUtils
+  );
+  await outputFile(
     Path.resolve(LOGOS_DIR, 'react.js'),
-    imports.join(';\n')
+    imports.join(';\n') + ';\nexport { UniqueLogosIdPrefixProvider } from \'./react-unique-logos-ids.js\''
   );
 })();
