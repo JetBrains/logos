@@ -17,7 +17,12 @@ const buble = require('buble');
 
   const svgrConfig = {
     dimensions: false,
-    plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier']
+    plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+    jsx: {
+      babelConfig: {
+        plugins: ['react-inline-svg-unique-id']
+      }
+    }
   };
 
   const paths = await glob(`${LOGOS_DIR}/*/*.svg`, {
