@@ -50,5 +50,8 @@
     "prerelease:ci": "standard-version && npm run build",
     "release:ci": "git push --follow-tags origin master && cd dist/web && npm publish"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/template": "^7.16.7"
+  }
 }
