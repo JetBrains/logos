@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/JetBrains/logos/compare/v1.4.34...v2.0.2) (2022-06-21)
+
+
+### Bug Fixes
+
+* deps after integration with react less than 17 ([2ac3aab](https://github.com/JetBrains/logos/commit/2ac3aab11c018044fd9c75f8de5c847ef9ae23b4))
+* dev deps after integration with react less than 17 ([852aabc](https://github.com/JetBrains/logos/commit/852aabcfad134214e117b29c733dae4a57d589a3))
+* gradients ids in react components view to unique for each component render ([b787ab3](https://github.com/JetBrains/logos/commit/b787ab37b9a9958b95a0270efe26a1b771ebaaad))
+* integration with react less than 17 ([48f1f80](https://github.com/JetBrains/logos/commit/48f1f80a7ae4d0bef10d89236171d337587e0c5a))
+
 ### [1.4.34](https://github.com/JetBrains/logos/compare/v1.4.33...v1.4.34) (2022-05-31)
 
 ### [1.4.33](https://github.com/JetBrains/logos/compare/v1.4.32...v1.4.33) (2022-05-05)
