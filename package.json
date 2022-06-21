@@ -1,6 +1,6 @@
 {
   "name": "@jetbrains/logos",
-  "version": "1.4.34",
+  "version": "2.0.0",
   "description": "JetBrains logos and branding materials",
   "author": "JetBrains",
   "license": "SEE LICENSE IN LICENSE.txt",
@@ -22,6 +22,8 @@
     "logos"
   ],
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/template": "^7.16.7",
     "@svgr/core": "^5.4.0",
     "@svgr/plugin-jsx": "^5.4.0",
     "@svgr/plugin-prettier": "^5.4.0",
@@ -49,5 +51,6 @@
     "build:react-components": "node scripts/generate-react-components.js",
     "prerelease:ci": "standard-version && npm run build",
     "release:ci": "git push --follow-tags origin master && cd dist/web && npm publish"
-  }
+  },
+  "dependencies": {}
 }
