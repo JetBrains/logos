@@ -25,7 +25,11 @@ FileSet.create({
       return copyPromise.then(() => Promise.map(rules.keys(), (ruleId) => {
         return rules.get(ruleId)
           .transformToPNG(file)
-          .then(file => file.write(`${distDir}/${dirname}/${ruleId}`));
+          .then(file => {
+            const fileName = `${distDir}/${dirname}/${ruleId}`;
+            console.log('Write converted file:', fileName);
+            file.write(fileName);
+          });
       }))
         .then(() => console.log('File converted:', filename));
     }
