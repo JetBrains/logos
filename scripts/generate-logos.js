@@ -19,7 +19,6 @@ FileSet.create({
   return Promise.mapSeries(files, (file) => {
     const { basename, dirname, filename } = file;
     const copyPromise = file.copy(`${distDir}/${dirname}/${filename}`);
-
     if (basename === dirname) {
       console.log('Converting file into PNG set:', filename)
       return copyPromise.then(() => Promise.map(rules.keys(), (ruleId) => {
@@ -37,4 +36,8 @@ FileSet.create({
     console.log('Copying file:', filename)
     return copyPromise;
   });
-});
+})
+  .catch(e => {
+    console.error('Failed to generate logos', e);
+    process.exit(4);
+  });
