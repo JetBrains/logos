@@ -8,16 +8,17 @@ const svgr = require('@svgr/core').default;
 const Case = require('case');
 const buble = require('buble');
 
-const reactUtils = `import { createContext, useContext, useState } from 'react';
+const reactUtils = `// use \`var\` and \`function\` construction for a correct work this code in IE 11
+import { createContext, useContext, useState } from 'react';
 
-const uniqueIdPrefixContext = createContext('__GeneratedJBProductLogos__');
+var uniqueIdPrefixContext = createContext('__GeneratedJBProductLogos__');
 
-export const UniqueLogosIdPrefixProvider = uniqueIdPrefixContext.Provider;
+export var UniqueLogosIdPrefixProvider = uniqueIdPrefixContext.Provider;
 
-let i = 0;
-export const useUniqueId = () => {
-  const prefix = useContext(uniqueIdPrefixContext);
-  const [ id ] = useState(() => prefix + i++);
+var i = 0;
+export var useUniqueId = function(){
+  var prefix = useContext(uniqueIdPrefixContext);
+  var id = useState(function(){return prefix + i++})[0];
   return id;
 };`;
 
