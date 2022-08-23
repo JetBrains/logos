@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.2](https://github.com/JetBrains/logos/compare/v2.2.1...v2.2.2) (2022-08-23)
+
+
+### Bug Fixes
+
+* react version for IE 11 ([6e9a01d](https://github.com/JetBrains/logos/commit/6e9a01d6e5fa94b601ddb5fc5e14c14e4b5c0a05))
+
 ### [2.2.1](https://github.com/JetBrains/logos/compare/v2.2.0...v2.2.1) (2022-08-16)
 
 ## [2.2.0](https://github.com/JetBrains/logos/compare/v2.0.9...v2.2.0) (2022-08-15)
