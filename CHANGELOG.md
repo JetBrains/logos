@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.4](https://github.com/JetBrains/logos/compare/v2.2.3...v2.2.4) (2022-08-30)
+
+
+### Bug Fixes
+
+* generation id's for linearGradient and radialGradient elements which aren't in defs element ([bf2079e](https://github.com/JetBrains/logos/commit/bf2079e838e09b26928411eb4e4ca817458da389))
+
 ### [2.2.3](https://github.com/JetBrains/logos/compare/v2.2.2...v2.2.3) (2022-08-25)
 
 ### [2.2.2](https://github.com/JetBrains/logos/compare/v2.2.1...v2.2.2) (2022-08-23)
