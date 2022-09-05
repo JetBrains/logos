@@ -42,7 +42,7 @@
     "minimist": "^1.2.0",
     "mkdirp": "^0.5.1",
     "sharp": "^0.30.7",
-    "standard-version": "^8.0.1",
+    "standard-version": "^9.5.0",
     "svgo": "^1.2.2"
   },
   "scripts": {
