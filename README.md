@@ -23,8 +23,6 @@ npm run build
 ## Deploy
 See [JetBrains Logos](https://github.com/JetBrains/www.jetbrains.com/blob/master/docs/JetBrains-logos.md#jetbrains-logos)
 
-https://github.com/JetBrains/www.jetbrains.com/blob/master/docs/JetBrains-logos.md#jetbrains-logos
-
 ## Usage in React
 
 ```js
