@@ -28,13 +28,13 @@
     "@svgr/core": "^5.4.0",
     "@svgr/plugin-jsx": "^5.4.0",
     "@svgr/plugin-prettier": "^5.4.0",
-    "@svgr/plugin-svgo": "^5.4.0",
+    "@svgr/plugin-svgo": "^6.5.1",
     "archiver": "^3.0.0",
     "archiver-promise": "^1.0.0",
     "bluebird": "^3.5.5",
     "buble": "^0.20.0",
     "case": "^1.6.3",
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.12",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^2.1.0",
     "fs-extra": "^8.0.1",
@@ -43,7 +43,7 @@
     "mkdirp": "^0.5.1",
     "sharp": "^0.30.7",
     "standard-version": "^9.5.0",
-    "svgo": "^1.2.2"
+    "svgo": "^3.0.2"
   },
   "scripts": {
     "build": "scripts/prepare.sh && npm run build:png && npm run build:react-components",
