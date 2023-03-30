@@ -2,8 +2,8 @@ const Path = require('path');
 const { promisify } = require('util');
 
 const glob = promisify(require('glob-all'));
-const { readFile, readJson, outputFile } = require('fs-extra');
-const SVGO = require('svgo');
+const { readFile, outputFile } = require('fs-extra');
+const { optimize, loadConfig } = require('svgo');
 const svgr = require('@svgr/core').default;
 const Case = require('case');
 const buble = require('buble');
@@ -23,11 +23,9 @@ export var useUniqueId = function(){
 };`;
 
 (async () => {
-  const ROOT_DIR = Path.resolve(__dirname, '..');
   const LOGOS_DIR = Path.resolve(__dirname, '../dist/web');
 
-  const svgoConfig = await readJson(`${ROOT_DIR}/.svgorc`);
-  const svgo = new SVGO(svgoConfig);
+  const svgoConfig = await loadConfig();
 
   const svgrConfig = {
     dimensions: false,
@@ -52,7 +50,7 @@ export var useUniqueId = function(){
     const basename = Path.basename(svgPath, Path.extname(svgPath));
     const componentName = `${Case.pascal(basename)}Logo`;
     const sourceSvg = (await readFile(svgPath)).toString();
-    const { data: svg } = await svgo.optimize(sourceSvg, { path: svgPath });
+    const { data: svg } = optimize(sourceSvg, { path: svgPath, ...svgoConfig });
 
     const jsx = await svgr(svg, svgrConfig, { componentName });
     const { code: js } = buble.transform(jsx, {
