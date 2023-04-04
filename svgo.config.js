@@ -6,7 +6,8 @@ module.exports = {
         overrides: {
           "removeUselessStrokeAndFill": {
             "fill": false
-          }
+          },
+          "removeViewBox": false
         }
       }
     },
