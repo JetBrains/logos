@@ -4,7 +4,7 @@ const { promisify } = require('util');
 const glob = promisify(require('glob-all'));
 const { readFile, outputFile } = require('fs-extra');
 const { optimize, loadConfig } = require('svgo');
-const svgr = require('@svgr/core').default;
+const svgr = require('@svgr/core');
 const Case = require('case');
 const buble = require('buble');
 
@@ -52,7 +52,7 @@ export var useUniqueId = function(){
     const sourceSvg = (await readFile(svgPath)).toString();
     const { data: svg } = optimize(sourceSvg, { path: svgPath, ...svgoConfig });
 
-    const jsx = await svgr(svg, svgrConfig, { componentName });
+    const jsx = await svgr.transform(svg, svgrConfig, { componentName });
     const { code: js } = buble.transform(jsx, {
       objectAssign: 'Object.assign',
       transforms: {
