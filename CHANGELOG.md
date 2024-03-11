@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.26](https://github.com/JetBrains/logos/compare/v2.2.25...v2.2.26) (2024-03-11)
+
 ### [2.2.25](https://github.com/JetBrains/logos/compare/v2.2.24...v2.2.25) (2024-02-01)
 
 ### [2.2.24](https://github.com/JetBrains/logos/compare/v2.2.23...v2.2.24) (2024-01-08)
