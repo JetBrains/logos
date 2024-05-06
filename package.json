@@ -7,7 +7,6 @@
   "main": "index.js",
   "files": [
     "*/*.{svg,ico,js}",
-    "*/!(boxshot).png",
     "logos.js",
     "react.js",
     "react-unique-logos-ids.js",
