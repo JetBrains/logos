@@ -39,9 +39,7 @@ export var useUniqueId = function(){
   };
 
   const paths = await glob(`${LOGOS_DIR}/*/*.svg`, {
-    ignore: [
-      '**/apple-mask-icon.svg'
-    ]
+    ignore: []
   });
 
   const imports = [];
