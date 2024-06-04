@@ -1,0 +1,6 @@
+// Info https://containers.dev/implementors/json_reference/
+{
+  "name": "@jetbrains/logos",
+  "forwardPorts": [],
+  "image":  "node:16.18.1"
+}
