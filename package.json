@@ -6,7 +6,7 @@
   "license": "SEE LICENSE IN LICENSE.txt",
   "main": "index.js",
   "files": [
-    "*/*.{svg,ico,js}",
+    "*/*.{svg,ico,png,js}",
     "logos.js",
     "react.js",
     "react-unique-logos-ids.js",
