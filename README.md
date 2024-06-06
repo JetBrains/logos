@@ -73,6 +73,7 @@ const metas = utils.getMetas(/* optional */processor);
 
 /* Returns the list of meta tags:
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16 32x32"/>
+<link rel="icon" href="icon.svg" type="image/svg+xml"/>
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
 <meta name="msapplication-TileColor" content="#000000"/>
 <meta property="og:title" content="%website_title%" />
