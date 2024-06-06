@@ -47,7 +47,7 @@
   "scripts": {
     "build": "scripts/prepare.sh && npm run build:png && npm run build:react-components && npm run check",
     "build:assets": "node scripts/generate-assets.js",
-    "build:png": "node scripts/generate-logos.js && scripts/optimize.sh",
+    "build:png": "scripts/optimize.sh",
     "build:react-components": "node scripts/generate-react-components.js",
     "check": "node scripts/check-scripts.js",
     "release:ci": "standard-version --skip.changelog --skip.commit --skip.tag --release-as 3.0.0-canary.$(git rev-parse --short HEAD).0 && npm run build && cd dist/web && npm publish --tag=canary"

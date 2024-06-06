@@ -56,7 +56,7 @@ const files = utils.getFiles(/* required */product);
 /* Returns an array of absolute paths to files:
 [ 
   '/path/to/project/node_modules/jetbrains-logos/hub/favicon.ico',
-  '/path/to/project/node_modules/jetbrains-logos/hub/apple-touch-icon-180x180.png'
+  '/path/to/project/node_modules/jetbrains-logos/hub/apple-touch-icon.png'
 ]
 */
 ```
@@ -73,6 +73,7 @@ const metas = utils.getMetas(/* optional */processor);
 
 /* Returns the list of meta tags:
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16 32x32"/>
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
 <meta name="msapplication-TileColor" content="#000000"/>
 <meta property="og:title" content="%website_title%" />
 <meta property="og:type" content="website" />
