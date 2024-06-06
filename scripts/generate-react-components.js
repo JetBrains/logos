@@ -46,6 +46,10 @@ export var useUniqueId = function(){
 
   for (const svgPath of paths) {
     const basename = Path.basename(svgPath, Path.extname(svgPath));
+    if (basename === 'icon') {
+      // Don't generate react versions for "icon", which is effectively a favicon
+      continue;
+    }
     const componentName = `${Case.pascal(basename)}Logo`;
     const sourceSvg = (await readFile(svgPath)).toString();
     const { data: svg } = optimize(sourceSvg, { path: svgPath, ...svgoConfig });
