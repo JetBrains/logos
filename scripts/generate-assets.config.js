@@ -55,7 +55,6 @@ const sets = [
   {
     pattern: [
       '*/{boxshot.png,*.pdf}',
-      '*/!(apple-mask-icon).svg',
       '!jetbrains/**'
     ],
     archivePath: file => `${file.dirname}/docs/${file.dirname}_logos.zip`,

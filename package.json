@@ -6,8 +6,7 @@
   "license": "SEE LICENSE IN LICENSE.txt",
   "main": "index.js",
   "files": [
-    "*/*.{svg,ico,js}",
-    "*/!(boxshot).png",
+    "*/*.{svg,ico,png,js}",
     "logos.js",
     "react.js",
     "react-unique-logos-ids.js",
@@ -46,12 +45,12 @@
     "svgo": "^3.0.2"
   },
   "scripts": {
-    "build": "scripts/prepare.sh && npm run build:png && npm run build:react-components",
+    "build": "scripts/prepare.sh && npm run build:png && npm run build:react-components && npm run check",
     "build:assets": "node scripts/generate-assets.js",
-    "build:png": "node scripts/generate-logos.js && scripts/optimize.sh",
+    "build:png": "scripts/optimize.sh",
     "build:react-components": "node scripts/generate-react-components.js",
-    "prerelease:ci": "standard-version && npm run build",
-    "release:ci": "git push --follow-tags origin master && cd dist/web && npm publish"
+    "check": "node scripts/check-scripts.js",
+    "release:ci": "standard-version --skip.changelog --skip.commit --skip.tag --release-as 3.0.0-canary.$(git rev-parse --short HEAD).0 && npm run build && cd dist/web && npm publish --tag=canary"
   },
   "dependencies": {}
 }
