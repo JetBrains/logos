@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/JetBrains/logos/compare/v2.2.30...v3.0.1) (2024-09-03)
+
 ### [2.2.30](https://github.com/JetBrains/logos/compare/v2.2.29...v2.2.30) (2024-06-06)
 
 ### [2.2.29](https://github.com/JetBrains/logos/compare/v2.2.28...v2.2.29) (2024-05-17)
