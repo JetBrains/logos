@@ -1,6 +1,6 @@
 {
   "name": "@jetbrains/logos",
-  "version": "2.2.30",
+  "version": "3.0.0",
   "description": "JetBrains logos and branding materials",
   "author": "JetBrains",
   "license": "SEE LICENSE IN LICENSE.txt",
@@ -50,7 +50,8 @@
     "build:png": "scripts/optimize.sh",
     "build:react-components": "node scripts/generate-react-components.js",
     "check": "node scripts/check-scripts.js",
-    "release:ci": "standard-version --skip.changelog --skip.commit --skip.tag --release-as 3.0.0-canary.$(git rev-parse --short HEAD).0 && npm run build && cd dist/web && npm publish --tag=canary"
+    "prerelease:ci": "standard-version && npm run build",
+    "release:ci": "git push --follow-tags origin master && cd dist/web && npm publish"
   },
   "dependencies": {}
 }
