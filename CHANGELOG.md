@@ -2,7 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [3.0.1](https://github.com/JetBrains/logos/compare/v2.2.30...v3.0.1) (2024-09-03)
+# [3.0.0](https://github.com/JetBrains/logos/compare/v2.2.30...v3.0.1) (2024-09-03)
+
+This version contains redesign of logos combined with cleaning up the set of images, following suggestions from [this article](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs).
+
+1. We've updated design for logotypes (see [internal issue](https://youtrack.jetbrains.com/issue/DSGN-19133))
+2. `mstile-WxH.png` icons are removed
+3. `apple-touch-icon-WxH.png` logos are dropped, and only one size left. It calls `apple-touch-icon.png`
+4. `apple-mask-icon.svg` files dropped.
+5. PDF versions dropped (like `web/dotmemory/logo-text-CMYK.pdf`)
+6. Boxshots removed (like `web/youtrack/boxshot.png`)
+7. PNG favicons (like `web/youtrack/youtrack_16.png`) dropped in favor of SVG versions
+8. Upsource logotypes removed completely as Upsource is not supported anymore
+9. 
 
 ### [2.2.30](https://github.com/JetBrains/logos/compare/v2.2.29...v2.2.30) (2024-06-06)
 
