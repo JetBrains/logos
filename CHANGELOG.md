@@ -14,7 +14,6 @@ This version contains redesign of logos combined with cleaning up the set of ima
 6. Boxshots removed (like `web/youtrack/boxshot.png`)
 7. PNG favicons (like `web/youtrack/youtrack_16.png`) dropped in favor of SVG versions
 8. Upsource logotypes removed completely as Upsource is not supported anymore
-9. 
 
 ### [2.2.30](https://github.com/JetBrains/logos/compare/v2.2.29...v2.2.30) (2024-06-06)
 
